@@ -21,7 +21,7 @@ class MainActivity : AppCompatActivity() {
 
     // Настройте URL вашего задеплоенного сервера:
     // Например: "https://your-app-name.onrender.com/"
-    private val APP_URL = "https://avgchat.onrender.com/"
+    private val APP_URL = "https://avgchat-1.onrender.com/"
 
     private val fileChooserLauncher = registerForActivityResult(ActivityResultContracts.StartActivityForResult()) { result ->
         if (result.resultCode == RESULT_OK) {
