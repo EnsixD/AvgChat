@@ -1,0 +1,14 @@
+node_modules/
+.DS_Store
+*.log
+client/dist/
+
+# Env files
+.env
+
+# IntelliJ/Android Studio/Android
+.idea/
+.gradle/
+android/app/build/
+android/.gradle/
+android/local.properties
